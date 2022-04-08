@@ -11,7 +11,10 @@
         Cache-Control "max-age=604800, immutable"
     }
 
-    root /astra-distrib/* /astra-distrib
+    handle_path /astra-distrib/* {
+        root * /astra-distrib
+    }
+
 
     encode gzip
 
