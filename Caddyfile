@@ -2,12 +2,13 @@
     admin off # we dont use this so lol
 }
 
-log {
-    output stdout
-    level INFO
-}
 
 :9455 {
+    log {
+        output stdout
+        level INFO
+    }
+
     header {
         -Server
 
