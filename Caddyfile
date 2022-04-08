@@ -1,14 +1,10 @@
 {
     admin off # we dont use this so lol
+    debug
 }
 
 
 :9455 {
-    log {
-        output stdout
-        level INFO
-    }
-
     header {
         -Server
 
