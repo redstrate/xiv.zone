@@ -1,0 +1,22 @@
+{
+    admin off # we dont use this so lol
+}
+
+:9455 {
+    header {
+        -Server
+
+        Cache-Control "max-age=604800, immutable"
+    }
+
+    handle /astra-distrib {
+        root * /var/astra-distrib
+
+        file_server
+    }
+
+    encode gzip
+
+    file_server
+}
+
