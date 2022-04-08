@@ -9,4 +9,4 @@ ARG DOMAIN
 FROM caddy
 
 COPY Caddyfile /etc/caddy/Caddyfile
-COPY --from=build /site/public /srv
+#COPY --from=build /site/public /srv
