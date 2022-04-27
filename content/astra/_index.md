@@ -5,6 +5,8 @@ layout: "single"
 
 A FFXIV launcher that supports multiple profiles and Dalamud plugins. It also supports Windows, macOS and Linux natively!
 
+I recommend reading up the [FAQ](/astra/faq).
+
 ![Main Screenshot](main-screenshot.png)
 
 {{< begin-grid >}}
