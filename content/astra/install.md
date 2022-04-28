@@ -8,26 +8,43 @@ The current version is [0.4.0](/astra/changelog).
 
 ### Windows
 
-[Portable ZIP](https://xiv.zone/distrib/astra/0.4.0/astra-0.4.0-win-x64.zip)
+{{< rawhtml >}}
+<div class="buttons">
+<a class="blurb-button" href="https://xiv.zone/distrib/astra/0.4.0/astra-0.4.0-win-x64.zip" download>Download for Windows (ZIP)</a>
+</div>
+{{< /rawhtml >}}
 
 SHA256: `e283e6f65abe3546942d17ba240300edc96e2bcb51bf29790b6779be2a5ba7aa`
 
 ### macOS
 
-[App](https://xiv.zone/distrib/astra/Astra.app)
+{{< rawhtml >}}
+<div class="buttons">
+<a class="blurb-button" href="https://xiv.zone/distrib/astra/Astra.app" download>Download for macOS</a>
+</div>
+{{< /rawhtml >}}
 
 _Note: The app is signed and the developer should read as "Joshua Goins"._
 
 ### Linux
 
-I'm only providing a Flatpak for now. To install Astra on your Linux system, follow these instructions:
+I'm only providing a [Flatpak](https://www.flatpak.org/setup/) for now. Unfortunately it's not on Flathub yet, but I've created a repository specifically for xiv.zone applications:
 
-1. [Install Flatpak](https://www.flatpak.org/setup/) if it's not already on your system.
-2. [Download the flatpakrepo file](https://www.flatpak.org/setup/) and install it using your preferred GUI Flatpak manager or through the command line:
+{{< rawhtml >}}
+<div class="buttons">
+<a class="blurb-button" href="https://xiv.zone/distrib/flatpak/xivzone.flatpakrepo" download>Install Flatpak Repository</a>
+</div>
+{{< /rawhtml >}}
 
-`flatpak remote-add xiv.zone https://xiv.zone/distrib/flatpak`
+You can install it through your preferred GUI Flatpak manager, using the link below or by searching:
 
-3. You can install it directly through your GUI Flatpak manager, or directly from the command line:
+{{< rawhtml >}}
+<div class="buttons">
+<a class="blurb-button" href="appstream://zone.xiv.Astra" download>Install Astra for Linux</a>
+</div>
+{{< /rawhtml >}}
+
+Or by the command-line if you prefer:
 
 `flatpak install xiv.zone.Astra`
 
