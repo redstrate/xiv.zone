@@ -16,4 +16,3 @@ The goal is to create a good set of tools that isn't based on WPF and C#, and ca
 {{< blurb title="Give Feedback" description="Send an email on the mailing list for feature requests, bugs, and patches." url="https://lists.sr.ht/~redstrate/public-inbox" >}}
 {{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this in my free time." url="https://ko-fi.com/redstrate" >}}
 {{< end-grid >}}
-

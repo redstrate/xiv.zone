@@ -2,7 +2,7 @@
 title: "Astra - Installation"
 ---
 
-The current version is [0.4.0](/astra/changelog).
+The current version is [0.4.0](/astra/changelog). These precompiled builds are currently still a work in progress, please tell me any issues you have in the [mailing list](https://lists.sr.ht/~redstrate/astra-dev).
 
 **Note:** Windows and macOS users currently have to check for updates manually. You can tell which version you have by reading it in the `About` menu under `Help`. I hope to remedy this in the next major release.
 

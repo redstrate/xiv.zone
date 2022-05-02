@@ -59,9 +59,19 @@ modpack will actually fit smaller-chested characters better as well.
 
 ### What armor is affected?
 
-I don't have a dedicated list yet, but you can check what armor is affected inside Penumbra itself. Since this is a mod I personally use, a lot of it is naturally armor
-I like. Eventually, more and more armor will be added.
+I don't have a dedicated list yet, but you can check what armor is affected inside Penumbra itself. The armors are naturally biased to the ones
+I use/like, but I will keep adding more as time as goes on.
+
+### It looks like some armor is buggy/has holes/should be modified.
+
+If you have a question, concern or a request please don't hesitate to [contact me](https://redstrate.com/about). Please keep in mind that I do not make money off of this mod (nor do I want to) and I work on this in my free time.
+
+### What about armor that is intentionally supposed to be either tight-fitted or loose? Does this mod affect the realism of the armor in the game?
+
+**No!** If the original intention of an armor was to be either loosely or tightly fitted, I have preserved that feature.
+
+![realism](varc/realism-comparison.png)
 
 ### Why the hell did you make such a stupid mod??
 
-*crying* This FAQ is over!
+*sob* This FAQ is over!
