@@ -20,7 +20,7 @@ SHA256: `e283e6f65abe3546942d17ba240300edc96e2bcb51bf29790b6779be2a5ba7aa`
 
 {{< rawhtml >}}
 <div class="buttons">
-<a class="blurb-button" href="https://xiv.zone/distrib/astra/0.4.1/Astra.app" download>Download for macOS</a>
+<a class="blurb-button" href="https://xiv.zone/distrib/astra/0.4.1/Astra.app.zip" download>Download for macOS</a>
 </div>
 {{< /rawhtml >}}
 
