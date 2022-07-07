@@ -56,4 +56,4 @@ If you're an Arch Linux user, I also maintain the [AUR package](https://aur.arch
 
 [Tarball](https://xiv.zone/distrib/astra/0.4.1/astra-source.tar.gz)
 
-SHA256: efcf6fcce293818b94b03d2016e5fe87afd07e5d7e6b4f7e58b26bf043af0c71
+SHA256: c25e84180485639989bb0bbd073b5a52412f45e0c36884963a1a7a3a136266f2
