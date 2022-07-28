@@ -5,7 +5,7 @@ layout: "single"
 
 A FFXIV launcher that supports multiple profiles and Dalamud plugins. It also supports Windows, macOS and Linux natively!
 
-I recommend reading up the [FAQ](/astra/faq).
+I recommend reading up the [FAQ](/astra/faq)!
 
 ![Main Screenshot](main-screenshot.png)
 
@@ -23,7 +23,8 @@ I recommend reading up the [FAQ](/astra/faq).
 {{< begin-grid >}}
 {{< blurb title="Download" description="Install the latest version on your preferred operating system." url="/astra/install" >}}
 {{< blurb title="Get Source" description="The full source code for Astra is available on sourcehut." url="https://sr.ht/~redstrate/astra" >}}
-{{< blurb title="Give Feedback" description="Send an email on the mailing list for feature requests, bugs, and patches." url="https://lists.sr.ht/~redstrate/astra-dev" >}}
+{{< blurb title="File Bugs" description="Submit tickets for bugs and feature requests." url="https://todo.sr.ht/~redstrate/astra" >}}
+{{< blurb title="Give Feedback" description="Send an email on the mailing list for feature discussions and patches." url="https://lists.sr.ht/~redstrate/public-inbox" >}}
 {{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this in my free time." url="https://ko-fi.com/redstrate" >}}
 {{< end-grid >}}
 
