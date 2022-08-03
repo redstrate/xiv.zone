@@ -15,6 +15,8 @@ not properly fit "large chested" female characters like my Viera. Compared to ot
 
 **Note:** This only **affects** armor tops.
 
+The changelog is located [here](/varc/changelog).
+
 {{< rawhtml >}}
 <div class="buttons">
 <a class="blurb-button" href="https://xiv.zone/distrib/varc/varc-1.0.1.zip" download>
@@ -23,24 +25,6 @@ Version 1.0.1
 </a>
 </div>
 {{< /rawhtml >}}
-
-### Changelog
-
-#### 1.0.1
-
-- Fixed issue when neo-ishgardian top of aiming
-
-There was a shape key used when equipping certain hand armor, and it was causing deformation. This should be looking better now.
-
-- Removed some hidden folders
-
-I accidentally uploaded a bunch of .DS_Store files, they're removed now!
-
----
-
-#### 1.0.0
-
-Initial release.
 
 ### Addons
 
