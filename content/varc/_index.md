@@ -11,46 +11,23 @@ changes depending on whatever you decide to wear? No more!
 The main reason why I created this mod is that some of the armors in the game do
 not properly fit "large chested" female characters like my Viera. Compared to other mods that are refitting it to a completely different (and usually ridiculously NSFW) body type, this is meant for people who are fine with the vanilla body like me. 
 
-## Downloads
+## Get Involved & Support
 
-**Note:** This only **affects** armor tops.
-
-The changelog is located [here](/varc/changelog).
-
-{{< rawhtml >}}
-<div class="buttons">
-<a class="blurb-button" href="https://xiv.zone/distrib/varc/varc-1.0.2.zip" download>
-<h4>Download VARC</h4>
-Version 1.0.2
-</a>
-</div>
-{{< /rawhtml >}}
-
-### Addons
-
-These are kept as seperate mods because they are purely opinionated.
-
-#### Better Butts
-
-This changes some bottom armors to "canonize" the 2B butt. Thanks Square Enix.
-
-**Note:** Since there is very little geometry in the original vanilla armor, there's only
-so much I can do. Most of the armor looks fine though.
-
-{{< rawhtml >}}
-<div class="buttons">
-<a class="blurb-button" href="https://xiv.zone/distrib/varc/varc-better-butts-1.0.2.zip" download>
-<h4>Download VARC - Better Butts</h4>
-Version 1.0.2
-</a>
-</div>
-{{< /rawhtml >}}
+{{< begin-grid >}}
+{{< blurb title="Download" description="Install the latest version." url="/varc/install" >}}
+{{< blurb title="Gear List" description="Preview the affected items by this mod." url="/varc/gearlist" >}}
+{{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this in my free time." url="https://ko-fi.com/redstrate" >}}
+{{< end-grid >}}
 
 ## Frequently Asked Questions
 
 ### How do I install this?
 
 This is a [Penumbra](https://github.com/xivdev/Penumbra) mod, so simply drag it into your Penumbra mods folder (normally located in `Mods` folder in your `Documents`).
+
+### Do you plan on making a TexTools version?
+
+No.
 
 ### Why isn't this mod doing anything?
 
@@ -61,12 +38,15 @@ modpack will actually fit smaller-chested characters better as well.
 
 ### What armor is affected?
 
-I don't have a dedicated list yet, but you can check what armor is affected inside Penumbra itself. The armors are naturally biased to the ones
-I use/like, but I will keep adding more as time as goes on.
+There's a list of armor affected [here](/varc/gearlist). For now only the main VARC mod is indexed.
 
 ### It looks like some armor is buggy/has holes/should be modified.
 
 If you have a question, concern or a request please don't hesitate to [contact me](https://redstrate.com/about). Please keep in mind that I do not make money off of this mod (nor do I want to) and I work on this in my free time.
+
+### What if I don't want to use VARC for (insert gear here) or (insert character here)?
+
+Penumbra has the functionality to selectively disable parts of the mod, either for select gear or characters.
 
 ### What about armor that is intentionally supposed to be either tight-fitted or loose? Does this mod affect the realism of the armor in the game?
 
@@ -74,6 +54,6 @@ If you have a question, concern or a request please don't hesitate to [contact m
 
 ![realism](varc/realism-comparison.png)
 
-### Why the hell did you make such a stupid mod??
+### Why did you make such a stupid mod??
 
 *sob* This FAQ is over!
