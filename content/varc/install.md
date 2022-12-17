@@ -6,9 +6,9 @@ The changelog is located [here](/varc/changelog).
 
 {{< rawhtml >}}
 <div class="buttons">
-<a class="blurb-button" href="https://xiv.zone/distrib/varc/varc-1.0.2.zip" download>
+<a class="blurb-button" href="https://xiv.zone/distrib/varc/varc-1.0.3.zip" download>
 <h4>Download VARC</h4>
-Version 1.0.2
+Version 1.0.3
 </a>
 </div>
 {{< /rawhtml >}}
@@ -25,9 +25,9 @@ This changes some bottom armors to "canonize" the 2B butt. Thanks Square Enix.
 
 {{< rawhtml >}}
 <div class="buttons">
-<a class="blurb-button" href="https://xiv.zone/distrib/varc/varc-better-butts-1.0.2.zip" download>
+<a class="blurb-button" href="https://xiv.zone/distrib/varc/varc-better-butts-1.0.3.zip" download>
 <h4>Download VARC - Better Butts</h4>
-Version 1.0.2
+Version 1.0.3
 </a>
 </div>
 {{< /rawhtml >}}

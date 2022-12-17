@@ -16,7 +16,7 @@ Coincidentally, characters that have smaller chests would also benefit from the 
 ## Get Involved & Support
 
 {{< begin-grid >}}
-{{< blurb title="Download" description="Install the latest version." url="/varc/install" >}}
+{{< blurb title="Download" description="Install the latest version (1.0.3)" url="/varc/install" >}}
 {{< blurb title="Gear List" description="Preview the affected items by this mod." url="/varc/gearlist" >}}
 {{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this in my free time." url="https://redstrate.com/fund" >}}
 {{< end-grid >}}
