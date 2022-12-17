@@ -43,4 +43,4 @@ If you have an issue, please report it on the [bug tracker](https://todo.sr.ht/~
 
 ***Nothing broke, but I want a feature implemented!***
 
-You can either discuss it on my [mailing list](https://lists.sr.ht/~redstrate/public-inbox), or report it through the [tracker](https://todo.sr.ht/~redstrate/astra). Please note that I work on this on my free time, so [monetary support](https://ko-fi.com/redstrate) is appreciated if possible. :-)
+You can either discuss it on my [mailing list](https://lists.sr.ht/~redstrate/public-inbox), or report it through the [tracker](https://todo.sr.ht/~redstrate/astra). Please note that I work on this on my free time, so [monetary support](https://redstrate.com/fund) is appreciated if possible. :-)

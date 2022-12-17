@@ -25,6 +25,6 @@ I recommend reading up the [FAQ](/astra/faq)!
 {{< blurb title="Get Source" description="The full source code for Astra is available on sourcehut." url="https://sr.ht/~redstrate/astra" >}}
 {{< blurb title="File Bugs" description="Submit tickets for bugs and feature requests." url="https://todo.sr.ht/~redstrate/astra" >}}
 {{< blurb title="Give Feedback" description="Send an email on the mailing list for feature discussions and patches." url="https://lists.sr.ht/~redstrate/public-inbox" >}}
-{{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this in my free time." url="https://ko-fi.com/redstrate" >}}
+{{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this in my free time." url="https://redstrate.com/fund" >}}
 {{< end-grid >}}
 
