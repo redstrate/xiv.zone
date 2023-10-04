@@ -119,6 +119,30 @@ footer {
     margin: 0 0 3px;
 }
 
+.note {
+    padding: 1em;
+    border-radius: 7px;
+    margin: 0.5em;
+    text-decoration: none;
+    background-color: #ecd89c;
+}
+
+.note p {
+    margin: 0em;
+}
+
+.info {
+    padding: 1em;
+    border-radius: 7px;
+    margin: 0.5em;
+    text-decoration: none;
+    background-color: #caebff;
+}
+
+.info p {
+    margin: 0em;
+}
+
 .buttons {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
