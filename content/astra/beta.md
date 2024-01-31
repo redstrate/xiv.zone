@@ -1,5 +1,6 @@
 ---
 title: "Download Beta"
+draft: true
 ---
 
 {{< note "0.5.0 is currently unreleased. Please only try it if you have nothing to lose!" >}}
