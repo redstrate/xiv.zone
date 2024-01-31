@@ -30,6 +30,6 @@ If you're an Arch Linux user, I also maintain the [AUR package](https://aur.arch
 </div>
 {{< /rawhtml >}}
 
-SHA256: bff31f73a12491b4c998f70e857a8c0f77eebb8b50ad0eef94d27cad28151650
+SHA256: aad7501bcd14f85ce3f211c584be6d69066e2e9fbbb49907701479cb650d514a
 
 Size: ~33 MB (since it includes all of the Rust dependencies)
