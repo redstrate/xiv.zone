@@ -1,9 +1,11 @@
 ---
-title: "Physics Fix"
+title: "FFXIV Physics Fix"
 layout: "single"
 ---
 
-FFXIV's bone physics - which apply to character's hair, clothes and other body parts - are for some reason tied to the frame rate. If you run FFXIV above 30/60 FPS, the physics run so quickly that the bones only move slightly. In other words: the lower the frame rate the more "responsive" the physics look. This plugin aims to fix that, based on [Kirrana's plugin](https://github.com/Kirrana/xivlauncher_physics_plugin/) to be more opinionated with less options. This plugin locks the update at 48 FPS.
+FFXIV's bone physics consist of wind and bounce physics. These apply to the character's hair, clothes and other body parts. However, some aspects appear broken on high framerates, especially those above 60 FPS. Notably bouncing happens so quickly that it's practically non-existent, and wind effects tend to appear jittery.
+
+This plugin fixes this bug by locking updates to 60 FPS, and is based on [Kirrana's plugin](https://github.com/Kirrana/xivlauncher_physics_plugin/) to be more opinionated with less options.
 
 ## Get Involved & Support
 

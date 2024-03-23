@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html
+  class=""
+  lang="en-us"
+  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
+>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <meta name="theme-color" content="#fffff" media="(prefers-color-scheme: light)"/>
+    <meta name="theme-color" content="rgb(77, 77, 82)" media="(prefers-color-scheme: dark)"/>
+
+    
+    <title>xiv.zone - Astra Changelog</title>
+    <meta name="description" content=""/>
+    
+
+    <link rel="canonical" href="http://localhost:1313/astra/changelog/" />
+    <base href="http://localhost:1313/">
+
+    
+
+    
+    <link rel="stylesheet" href="http://localhost:1313/css/style.min.1e5370e0bc1b21c3bac6f2f7a3ff57d375d92258658f234019ec66906b64aafe.css" integrity="sha256-HlNw4LwbIcO6xvL3o/9X03XZIlhljyNAGexmkGtkqv4=" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+</head>
+
+
+<div id="center-wrapper">
+
+  <header>
+  <h1><a href="/">xiv.zone</a></h1>
+
+  <nav id="header-links">
+    
+  </nav>
+</header>
+
+
+  <div id="wrapper">
+
+  <main>
+
+
+<h2>0.5.0</h2>
+<p>It&rsquo;s been a while (a year!) since the last Astra update, and a lot has changed since then. Here&rsquo;s a new major update to Astra!</p>
+<h2 id="new-interface">New interface</h2>
+<p>The new interface hosts the same feature set as it&rsquo;s predecessor: profile configuration, auto-login, and more. Some options may have been removed or slimmed down, but everything important should still be there!</p>
+<h2 id="accounts">Accounts</h2>
+<p>Previously, we had game configurations called &ldquo;Profiles&rdquo;. These always had one set of account credentials attached, and that&rsquo;s if you chose to store your username and password. Now it&rsquo;s completely revamped, accounts can be separately configured and each profile has a default account.</p>
+<p>You can change the profile&rsquo;s account on the login page. Options that only make sense for an account (&lsquo;Remember Password&rsquo;, &lsquo;Account Type&rsquo; and so on) live under their options now. In addition, you can associate a Lodestone character to an account to easily identify it.</p>
+<h2 id="platform-support">Platform support</h2>
+<p>Astra was usually touted as the &ldquo;Cross-platform FFXIV launcher&rdquo;. While this is true, it&rsquo;s actually really difficult to support Windows, macOS and Linux and giving out binaries for all three. I really only use Linux to play FFXIV, unfortunately. I also don&rsquo;t want to recommend people Astra which is usually a sub-par experience since I don&rsquo;t test it on Windows or macOS often. I have made the decision to drop official support for macOS and Windows, but I&rsquo;ll still accept contributions for these platforms.</p>
+<p>If you want a great Windows launcher, try XIVQuickLauncher. If you want a good macOS launcher, try XIV on Mac or XIVCore. They provide much better support for those operating systems!</p>
+<h2 id="game-update-support">Game update support</h2>
+<p>I&rsquo;m happy to say it&rsquo;s now safe and possible to update the game using Astra alone! Please note that it doesn&rsquo;t support game repair yet, you&rsquo;ll need to use another launcher to perform that action for now.</p>
+<h2 id="steam-support">Steam support</h2>
+<p>Astra can run as as a &ldquo;Steam Compatibility Tool&rdquo;. It handles dropping down to Proton when necessary for you as well. Currently this overrides the selected Wine for all profiles, but that might change in the future. The Steam API is used so your playtime is correctly tracked and even the overlay works! To use this feature, click the &ldquo;Install Compatibility Tool&rdquo; button in the Settings.</p>
+<h2 id="disabled-features">Disabled features</h2>
+<ul>
+<li><strong>Watchdog</strong>: It requires X11 and the code is untested, so I&rsquo;m hiding the feature for now. I plan to revamp it in time for the next expansion, expect Wayland to work as well.</li>
+</ul>
+<h2 id="new-icon">New icon</h2>
+<p>Astra now has a temporary icon, created by me. It will change once I flesh out a design, but it should be nicer to not fallback to a placeholder icon.</p>
+<h2 id="language-select">Language select</h2>
+<p>You can now select the game language under the account options. In addition, the program is now fully localizable and I&rsquo;ll look into translating some parts of it. I&rsquo;m not sure what the contribution workflow would look like for translations yet.</p>
+<h2 id="new-setup">New setup</h2>
+<p>The setup process has been completely revamped, and should be much easier to get started using Astra. It will walk you through where to find or download the game, and setting up an account.</p>
+
+<hr>
+
+<h2>0.4.1</h2>
+<p>This is a quick bugfix for 0.4.0. It&rsquo;s recommended for Linux users to update immediately as most
+of your filesystems are case-sensitive.</p>
+<ul>
+<li>Fixed an issue where starting the official launcher could fail on case-sensitive filesystems.</li>
+</ul>
+
+<hr>
+
+<h2>0.4.0</h2>
+<p>It&rsquo;s time for another big release of Astra!</p>
+<h4 id="game-boot-updating-support">Game boot updating support</h4>
+<p>Astra now supports updating your boot patches on startup, which is big news and a nice first step towards proper patching support! To clairfy, your &ldquo;game boot&rdquo; is the files in the <code>boot</code> folder in your game directory. This includes stuff like the official launcher, <code>ffxivboot.exe</code>, among other things. This happens transparently when you log in, just like the official launcher does.</p>
+<p><a class="gallery-img spotlight" href="/astra/changelog/update-screenshot.png" data-download="true"><img class="fancy-img" src="/astra/changelog/update-screenshot.png" alt="Boot Update Screenshot" /></a>
+</p>
+<p>While this is no proper game patch support, I plan to temporarily remedy this in a minor release soon. You&rsquo;ll have a choice between several &ldquo;patchers&rdquo; (my experimental one, XIVQuickLauncher.PatchInstaller, maybe official?) you can choose from when the game requires an update.</p>
+<h4 id="game-installation-support">Game installation support</h4>
+<p>Astra can now install the game for you if you don&rsquo;t have it installed already! Unfortunately due to unshield (the library it uses to extract game data from the installer) is not yet available for Windows, so this feature is limited to macOS and Linux users at the moment. I hope to have this fixed soon, but this is a neat feature nevertheless.</p>
+<h4 id="prebuilt-binaries-and-aur-packages-are-now-available">Prebuilt binaries and AUR packages are now available!</h4>
+<p>Now at long last there are now prebuilt binaries available! I&rsquo;m very sorry this took so long, but I wanted to make sure the launcher was in a good place before I started distributing it to users that aren&rsquo;t developers. Check out the <a href="/astra/install">Install page</a> for more information!</p>
+<h4 id="news--topics">News &amp; Topics</h4>
+<p>You can now view the current banners, topics, and other news right inside the launcher! Minimalist users can find that they can individually turn off banners and/or the news list, if they prefer the look of the old launcher. In the future I plan to expand this feature even further, but this should now be on par with other launcher&rsquo;s offerings.</p>
+<p><a class="gallery-img spotlight" href="/astra/changelog/news-screenshot.png" data-download="true"><img class="fancy-img" src="/astra/changelog/news-screenshot.png" alt="News Screenshot" /></a>
+</p>
+<h4 id="more-asset-updates">More asset updates</h4>
+<p>The asset updater got an overhaul, and now will display in a pretty little dialog window that is now cancellable! Fortunately, this dialog should never show up as the gooatscorp CDN and my webserver is fast enough that you usually
+won&rsquo;t see it.</p>
+<p><a class="gallery-img spotlight" href="/astra/changelog/asset-screenshot.png" data-download="true"><img class="fancy-img" src="/astra/changelog/asset-screenshot.png" alt="Asset Update Screenshot" /></a>
+</p>
+<h4 id="additional-stuff">Additional stuff</h4>
+<ul>
+<li>The login error message is now pulled directly from Square Enix&rsquo;s response, so timeouts, locked accounts and other
+esoteric login messages will be shown to you properly.</li>
+<li>Dalamud injection is much more stable, and there&rsquo;s now a much smaller chance of your game booting up without Dalamud starting up properly.</li>
+</ul>
+<h4 id="contributions">Contributions</h4>
+<p>Thank you @mariakeating for fixing these bugs!</p>
+<ul>
+<li>Unencrypted game arguments were not formatted properly.</li>
+<li>Custom wine paths were not loaded on startup.</li>
+</ul>
+
+<hr>
+
+<h2>0.3.1</h2>
+<p>This is a incremental release, meant for the eventual release on the AUR.</p>
+<p>However, it does include some important changes:</p>
+<ul>
+<li>Dalamud assets and runtime are now downloaded automatically and also kept up to date for you.</li>
+<li>System libraries are now used for qt5-keychain and quazip if found on your system.</li>
+</ul>
+
+<hr>
+
+<h2>0.3.0</h2>
+<p>Hello again! It&rsquo;s time for another big update :-)</p>
+<h4 id="name-change">Name Change</h4>
+<p>If you haven&rsquo;t noticed already, I changed the name from <code>xivlauncher</code> to Astra! Now that this is finally out of the way, I can start distributing packages (I&rsquo;ve started on a PKGBUILD already for Arch users) and it&rsquo;s another step towards being fully stable. Unfortunately this means your <strong>config is lost unless you rename it manually</strong>. Dalamud and nativelauncher will automatically redownload to the new data directory as well, but you can rename that as well.</p>
+<h4 id="dalamud-support">Dalamud support</h4>
+<p>This is a big feature that I&rsquo;ve been working on, and now it&rsquo;s finally ready to enter beta testing! For now, it is required to have <strong>XIVLauncher
+installed through Wine already</strong>. The asset updater built into Astra doesn&rsquo;t have the capabilities to bootstrap a fresh Dalamud environment on it&rsquo;s own yet, so XIVQuickLauncher is still required for that purpose, although I recommend having it installed anyway :-)</p>
+<p>Simply <strong>tick the &ldquo;Enable Dalamud Injection&rdquo; setting</strong> in your profile, and Dalamud/nativelauncher will download automatically and Astra will take care of the injection for you. Major thanks to the XIVQuickLauncher devs for writing the original ACL bypass relocated <a href="https://github.com/redstrate/nativelauncher">here</a>.</p>
+<p>Dalamud is also automatically updated to the latest stable version automatically, in the future I hope to expand the updating options.</p>
+<h4 id="cli-interface">CLI Interface</h4>
+<p>There is now a basic CLI interface, and see you check all of it&rsquo;s options by running <code>astra --help</code>. This is pretty basic, but there&rsquo;s enough to have a nice auto-login script going. This isn&rsquo;t a true GUI-less experience though, as Astra still depends on Qt5 heavily, but I hope this is a good enough :-)</p>
+<h4 id="maintenance-checks">Maintenance Checks</h4>
+<p>The login button is now automatically disabled when Astra detects that the game server is under maintenance. In the future, I hope to make this feature more robust.</p>
+<h4 id="arch-linux-ci-builds">Arch Linux CI builds</h4>
+<p>Thank you @pepper-jelly for contributing the Github action, which runs and <strong>automatically generates an Arch Linux binary to download</strong>. This still is not ideal though, as this requires a Github account to download, but in the future I will provide real releases.</p>
+<h4 id="settings-are-reorganized">Settings are reorganized</h4>
+<p>The settings are reorganized a bit, i&rsquo;m still not completely happy with the layout but it&rsquo;s much, much better than it was before.</p>
+<p><a class="gallery-img spotlight" href="https://user-images.githubusercontent.com/54911369/155547834-08f46a7d-4201-4edb-abc9-c0b2a833eb84.png" data-download="true"><img class="fancy-img" src="https://user-images.githubusercontent.com/54911369/155547834-08f46a7d-4201-4edb-abc9-c0b2a833eb84.png" alt="image" /></a>
+</p>
+<p><strong>Gamescope settings</strong> were also added, which includes stuff like width, height, refresh rate and so on. I hope to keep expanding these in the future with more of the wine tweaks. Also, gamescope and gamemode are automatically disabled if they are not installed on your system.</p>
+<p>There is now a dedicated Dalamud options box, I hope to expand this in the future with being able to enable/disable mods before launching the game, etc. This is part of my effort to better support dedicated/external tools (#14).</p>
+<p>The boot/dalamud versions are now displayed in the profile settings as well!</p>
+<h4 id="automatically-closing">Automatically closing</h4>
+<p>There is now an option to <strong>automatically &ldquo;close&rdquo; Astra when the game is launched</strong>, similar to how the official launcher and XIVQuickLauncher works. Due to how our processes are handled, the actual Astra process does not close, but is hidden until the game itself is closed - and that&rsquo;s when the actual application process quits. This option is <strong>enabled by default</strong>.</p>
+<h4 id="tags-are-now-signed">Tags are now signed</h4>
+<p>I now have a <a href="https://redstrate.com/gpg-0x1DF57CA30D92A21B-2022-02-02.asc">public GPG key</a>, and I will be <strong>signing tags from now on</strong>. This is to test the waters and make sure my GPG key is stable and works before I start having to sign more stuff - like commits, binary packages, and the like. This is also going to be essential for any packages that have be verified using my key.</p>
+<h4 id="experimental-stuff">Experimental stuff</h4>
+<p>There is also some experimental/untested stuff included in this release. When Endwalker launched, I quickly added <a href="https://github.com/redstrate/astra/wiki/Watchdog">Watchdog</a> to help me through the long login queues. Also, I managed to forget about Steam support, so I skimmed and implemented a Steam option, but I don&rsquo;t have the game on Steam to test yet.</p>
+
+<hr>
+
+<h2>0.2.0</h2>
+<p>This is a major beta release which adds a bunch new features!</p>
+<ul>
+<li>Multiple profile support
+<ul>
+<li>All of the settings you already use are now configurable, per profile. This includes server type, directx mode, and a whole bunch of neat configurable things. For people testing Sapphire servers or different types of wine this should be extremely useful!</li>
+</ul>
+</li>
+<li>Encrypted game argument support
+<ul>
+<li>On Windows, FFXIV &ldquo;encrypts&rdquo; (not really, just obfuscates) the game arguments otherwise your game login token (SID) is in plain-text. This now matches the behavior of the official xivboot.exe and also XIVQuickLauncher. This will become the new default option in the next release.</li>
+<li>Big thanks to XIVQuickLauncher where the code is based off of, as well as the information on xivdev.</li>
+</ul>
+</li>
+<li>Custom wine prefix/executable options on Linux and macOS</li>
+</ul>
+<p>These bugs are also fixed:</p>
+<ul>
+<li>Windows dependencies are now copied when building</li>
+<li>Windows &ldquo;open game directory&rdquo; button now works</li>
+<li>The built-in game wine is now the default (for real this time) on macOS</li>
+</ul>
+
+<hr>
+
+<h2>0.1.0</h2>
+<p>First public release!</p>
+
+<hr>
+
+
+
+</main>
+
+</div>
+
+<footer>
+
+</footer>
+
+
+</div>
+
+</html>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VARC Changelog on xiv.zone</title>
+    <link>http://localhost:1313/varc/changelog/</link>
+    <description>Recent content in VARC Changelog on xiv.zone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/varc/changelog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0.1.0</title>
+      <link>http://localhost:1313/varc/changelog/1.0.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/varc/changelog/1.0.0/</guid>
+      <description>Initial release.</description>
+    </item>
+    <item>
+      <title>1.0.1</title>
+      <link>http://localhost:1313/varc/changelog/1.0.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/varc/changelog/1.0.1/</guid>
+      <description>Fixed issue when neo-ishgardian top of aiming There was a shape key used when equipping certain hand armor, and it was causing deformation. This should be looking better now.</description>
+    </item>
+    <item>
+      <title>1.0.2</title>
+      <link>http://localhost:1313/varc/changelog/1.0.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/varc/changelog/1.0.2/</guid>
+      <description>Reverted changes to the rainbow coatee, ended up causing more problems so I left it alone. Added changes for the new streetwear top. Better Butts:&#xA;Added changes for the new streetwear bottoms.</description>
+    </item>
+    <item>
+      <title>1.0.3</title>
+      <link>http://localhost:1313/varc/changelog/1.0.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/varc/changelog/1.0.3/</guid>
+      <description>Neo-ishgardian top of aiming should now be completely fixed and free of holes. Hard leather harness is now changed. Added weight painting changes for Panthean robe of healing. Changed Street Jacket a little bit more.</description>
+    </item>
+    <item>
+      <title>1.0.4</title>
+      <link>http://localhost:1313/varc/changelog/1.0.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/varc/changelog/1.0.4/</guid>
+      <description>Small clothes top now looks better, but it&amp;rsquo;s not completely free of artifacts yet. Added Isle Explorer&amp;rsquo;s shirt. Better Butts:&#xA;The subligar override from the last update made it into VARC by mistake.</description>
+    </item>
+  </channel>
+</rss>
