@@ -2,34 +2,48 @@
 title: "Download"
 ---
 
-The stable version currently is **0.5.0**. Please let me know of any issues you have in the [tracker](https://todo.sr.ht/~redstrate/astra) or my [mailing list](https://lists.sr.ht/~redstrate/public-inbox).
+The stable version currently is **0.5.1**. You can report issues either on [GitHub](https://github.com/redstrate/Astra/issues) or if you prefer then [contact me via e-mail](https://redstrate.com/contact).
 
-See the [changelog](/astra/changelog/0.5.0) for this version.
+See the [changelog](/astra/changelog/0.5.1) for this version.
 
 ### Flatpak
 
-The Flatpak is currently unavailable. I estimate it will return at the end of February once the KDE Runtime is available for Qt6.
+The Flatpak is currently unavailable but is being actively worked on.
 
 ### Fedora
 
-If you're a Fedora user, I also maintain the RPM which you can find in my [personal COPR](https://copr.fedorainfracloud.org/coprs/redstrate/personal/).
+I also maintain an RPM which you can find in my [personal COPR](https://copr.fedorainfracloud.org/coprs/redstrate/personal/). After adding my COPR, run `dnf`:
+
+```shell
+dnf install astra
+```
 
 ### Gentoo
 
-If you're a Gentoo user, I also maintain the ebuild which you can find in my [personal overlay](https://git.sr.ht/~redstrate/overlay).
+I maintain an ebuild which you can find in my [personal overlay](https://git.sr.ht/~redstrate/overlay). After adding the overlay, run `emerge`:
+
+```shell
+emerge astra
+```
 
 ### Arch Linux
 
-If you're an Arch Linux user, I also maintain the [AUR package](https://aur.archlinux.org/packages/astra-launcher). You can find the PKGBUILD [here](https://git.sr.ht/~redstrate/pkgbuilds/tree/main/item/astra-launcher/PKGBUILD) and the original Flatpak manifests [here](https://git.sr.ht/~redstrate/astra-flatpak).
+I maintain the [AUR package](https://aur.archlinux.org/packages/astra-launcher). For example, using [aurutils](https://github.com/aurutils/aurutils):
+
+```shell
+aur sync astra-launcher
+```
 
 ### Source Code
 
+If you don't see your preferred distribution listed, it's always possible to build it manually. Please refer to the [build instructions](https://github.com/redstrate/Astra/blob/main/BUILDING.md) for more help.
+
 {{< rawhtml >}}
 <div class="buttons">
-<a class="blurb-button" href="https://xiv.zone/distrib/astra/0.5.0/astra-source.tar.gz" download>Download source code tarball</a>
+<a class="blurb-button" href="https://xiv.zone/distrib/astra/0.5.1/astra-source.tar.gz" download>Download source code tarball</a>
 </div>
 {{< /rawhtml >}}
 
-SHA256: 92a65d1f5079bdfd0e2e0ee3676617cfd157bf393580b18444e9526c38169a69
+SHA256: 9c882e43cf9e1ddc919345ec889bc9328430e4f97430c6673886bf317e28fc64
 
-Size: ~28 MB (since it includes all of the Rust dependencies)
+Size: ~11 MB

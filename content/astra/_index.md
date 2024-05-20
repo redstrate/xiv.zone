@@ -23,9 +23,8 @@ A FFXIV launcher that supports profiles, multiple accounts and [Dalamud](https:/
 
 {{< begin-grid >}}
 {{< blurb title="Download" description="Download the latest version of Astra for your preferred distribution." url="/astra/install" >}}
-{{< blurb title="Get Source Code & Contribute" description="The full source code for Astra is available on sourcehut." url="https://github.com/redstrate/Astra" >}}
-{{< blurb title="File Bugs" description="Submit tickets for bugs and feature requests." url="https://todo.sr.ht/~redstrate/astra" >}}
-{{< blurb title="Give Feedback" description="Send an email on the mailing list for feature discussions and patches." url="https://lists.sr.ht/~redstrate/public-inbox" >}}
+{{< blurb title="Get Source Code & Contribute" description="The full source code for Astra is available on GitHub." url="https://github.com/redstrate/Astra" >}}
+{{< blurb title="File Bugs" description="Submit tickets for bugs and feature requests." url="https://github.com/redstrate/Astra" >}}
 {{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this!" url="https://redstrate.com/fund" >}}
 {{< end-grid >}}
 
