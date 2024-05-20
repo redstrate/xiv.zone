@@ -1,6 +1,8 @@
 ---
 title: "Vanilla Armor Refit Collection"
 layout: "single"
+aliases:
+- /varc
 ---
 
 Have you ever wondered why your female FFXIV character's body shape mysteriously changes depending on whatever you decide to wear? No more!

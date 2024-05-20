@@ -67,6 +67,7 @@ main {
     border-radius: 10px;
     border-color: var(--border-color);
     margin: 2px;
+    width: 100%;
 }
 
 main > h2 {

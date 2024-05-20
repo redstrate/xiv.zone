@@ -1,6 +1,8 @@
 ---
 title: "Physis"
 layout: "single"
+aliases:
+- /physis
 ---
 
 A modding framework for FFXIV written in Rust. Used in [Astra]({{< ref "astra" >}}) and [Novus]({{< ref "novus" >}}) but can easily be integrated into your own projects.

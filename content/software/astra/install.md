@@ -1,5 +1,5 @@
 ---
-title: "Download"
+title: "Install"
 ---
 
 The stable version currently is **0.5.1**. You can report issues either on [GitHub](https://github.com/redstrate/Astra/issues) or if you prefer then [contact me via e-mail](https://redstrate.com/contact).
