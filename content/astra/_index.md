@@ -10,13 +10,13 @@ A FFXIV launcher that supports profiles, multiple accounts and [Dalamud](https:/
 ## Features
 
 {{< begin-grid >}}
-{{< blurb title="Wine Support" description="Handles launching Wine for you." >}}
-{{< blurb title="Dalamud Support" description="You can use Dalamud plugins out of the box." >}}
-{{< blurb title="Multiple Profiles" description="Almost all of the settings can be set per-profile." >}}
-{{< blurb title="Encrypted Arguments" description="Game arguments are encrypted out of the box, so it's just as secure as other launchers." >}}
-{{< blurb title="Secure Password Storage" description="Login information is encrypted using your system keychain and is never stored plain-text." >}}
+{{< blurb title="Wine Support" description="Handles installing and launching Wine for you." >}}
+{{< blurb title="Dalamud Support" description="You can use Dalamud plugins out of the box!" >}}
+{{< blurb title="Multiple Profiles" description="Customizable per-profile settings for users that need multiple game installs." >}}
+{{< blurb title="Encrypted Arguments" description="Game arguments are encrypted out of the box, and is as secure as other launchers." >}}
+{{< blurb title="Secure Password Storage" description="Login information is encrypted using your system keychain and never stored plain-text." >}}
 {{< blurb title="Game Patching Support" description="Can patch the game without the need to boot into the official launcher." >}}
-{{< blurb title="Sapphire Login" description="Can login to 3rd party Sapphire servers." >}}
+{{< blurb title="Alternative Server Support" description="Can log into Sapphire servers and use alternative domains." >}}
 {{< end-grid >}}
 
 ## Get Involved & Support
