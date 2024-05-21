@@ -19,7 +19,7 @@ html {
     --border-color: white;
     overflow-y: scroll;
     color: #2f2f2f;
-    background-color: white;
+    background-color: #495259;
 }
 
 hr {
@@ -38,14 +38,6 @@ header {
     height: 100%;
 }
 
-a:link { 
-    color: var(--link-color);
-}
-
-a:visited {
-    color: var(--link-color-visited)
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -62,12 +54,22 @@ td {
 }
 
 main {
-    background-color: var(--content-color);
-    border: var(--content-border);
+    background-color: #313031;
+    border: 2px solid #9b8762;
     border-radius: 10px;
-    border-color: var(--border-color);
     margin: 2px;
+    padding: 10px;
     width: 100%;
+    box-shadow: 0px 3px 5px 2px #00000054;
+    color: lightgray;
+}
+
+main a:link {
+    color: #c6a38a;
+}
+
+main a:visited {
+    color: #c6a38a;
 }
 
 main > h2 {
@@ -99,7 +101,7 @@ footer {
 }
 
 .blurb {
-    background-color: #eaeaea;
+    background-color: #555;
     padding: 1em;
     border-radius: 7px;
     margin: 0.5em;
@@ -110,10 +112,11 @@ footer {
     border-radius: 7px;
     margin: 0.5em;
     text-decoration: none;
+    color: lightgray !important;
 }
 
 .blurb-button:hover {
-    background-color: #eaeaea;
+    background-color: #555;
 }
 
 .blurb-button h4, .blurb h4 {
