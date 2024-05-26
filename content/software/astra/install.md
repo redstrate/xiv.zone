@@ -8,7 +8,21 @@ See the [changelog](/astra/changelog/0.5.1) for this version.
 
 ### Flatpak
 
-The Flatpak is currently unavailable but is being actively worked on.
+{{< note "The Flatpak repository only has 0.6.0 currently, which is not released yet. While it may work, be aware it may still be buggy." >}}
+
+There is a Flatpak repository available, which is the preferred method to use Astra. You can open the file below if you use GNOME Software or Plasma Discover:
+
+{{< rawhtml >}}
+<div class="buttons">
+<a class="blurb-button" href="https://flatpak.xiv.zone/xivzone.flatpakrepo" download>Download Repository</a>
+</div>
+{{< /rawhtml >}}
+
+If you prefer using the CLI, use the command below:
+
+```shell
+flatpak remote-add --if-not-exists xiv.zone https://flatpak.xiv.zone/xivzone.flatpakrepo
+```
 
 ### Fedora
 
