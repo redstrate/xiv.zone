@@ -1,5 +1,7 @@
 ---
 title: "Download"
+aliases:
+- /novus/install
 ---
 
 {{< note "Novus is still experimental. Please expect there to be lots of bugs and things not working." >}}
