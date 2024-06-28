@@ -6,7 +6,7 @@ aliases:
 
 The stable version currently is **0.6.0**. You can report issues either on [GitHub](https://github.com/redstrate/Astra/issues) or if you prefer then [contact me via e-mail](https://redstrate.com/contact).
 
-See the [changelog](/astra/changelog/0.6.0) for this version.
+See the [changelog](/software/astra/changelog/0.6.0) for this version.
 
 ### Flatpak
 
