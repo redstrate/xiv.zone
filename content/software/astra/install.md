@@ -4,19 +4,17 @@ aliases:
 - /astra/install
 ---
 
-The stable version currently is **0.5.1**. You can report issues either on [GitHub](https://github.com/redstrate/Astra/issues) or if you prefer then [contact me via e-mail](https://redstrate.com/contact).
+The stable version currently is **0.6.0**. You can report issues either on [GitHub](https://github.com/redstrate/Astra/issues) or if you prefer then [contact me via e-mail](https://redstrate.com/contact).
 
-See the [changelog](/astra/changelog/0.5.1) for this version.
+See the [changelog](/astra/changelog/0.6.0) for this version.
 
 ### Flatpak
 
-{{< note "The Flatpak repository only has 0.6.0 currently, which is not released yet. While it may work, be aware it may still be buggy." >}}
-
-There is a Flatpak repository available, which is the preferred method to use Astra. You can open the file below if you use GNOME Software or Plasma Discover:
+There is a Flatpak repository available, which is the preferred method to use Astra especially on the Steam Deck. You can open the file below if you use GNOME Software or Plasma Discover:
 
 {{< rawhtml >}}
 <div class="buttons">
-<a class="blurb-button" href="https://flatpak.xiv.zone/xivzone.flatpakrepo" download>Download Repository</a>
+<a class="blurb-button" href="https://flatpak.xiv.zone/xivzone.flatpakrepo">Download Repository</a>
 </div>
 {{< /rawhtml >}}
 
@@ -34,14 +32,6 @@ I also maintain an RPM which you can find in my [personal COPR](https://copr.fed
 dnf install astra
 ```
 
-### Gentoo
-
-I maintain an ebuild which you can find in my [personal overlay](https://git.sr.ht/~redstrate/overlay). After adding the overlay, run `emerge`:
-
-```shell
-emerge astra
-```
-
 ### Arch Linux
 
 I maintain the [AUR package](https://aur.archlinux.org/packages/astra-launcher). For example, using [aurutils](https://github.com/aurutils/aurutils):
@@ -56,10 +46,10 @@ If you don't see your preferred distribution listed, it's always possible to bui
 
 {{< rawhtml >}}
 <div class="buttons">
-<a class="blurb-button" href="https://xiv.zone/distrib/astra/0.5.1/astra-source.tar.gz" download>Download source code tarball</a>
+<a class="blurb-button" href="https://xiv.zone/distrib/astra/0.6.0/astra-source.tar.gz" download>Download source code tarball</a>
 </div>
 {{< /rawhtml >}}
 
-SHA256: 9c882e43cf9e1ddc919345ec889bc9328430e4f97430c6673886bf317e28fc64
+SHA256: e5b081f71d867d72ccc766fcf14938be9646d657653fb54c3a7a74d25ff9973d
 
-Size: ~11 MB
+Size: ~256 KiB
