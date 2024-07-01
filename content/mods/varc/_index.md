@@ -5,6 +5,8 @@ aliases:
 - /varc
 ---
 
+{{< note "With the release of Dawntrail this mod is effectively obsolete (not by Square Enix unfortunately), but my other mod: Refitter." >}}
+
 Have you ever wondered why your female FFXIV character's body shape mysteriously changes depending on whatever you decide to wear? No more!
 
 ![main comparison](varc/main-comparison.png)
