@@ -4,9 +4,9 @@ aliases:
 - /astra/install
 ---
 
-The stable version currently is **0.6.0**. You can report issues either on [GitHub](https://github.com/redstrate/Astra/issues) or if you prefer then [contact me via e-mail](https://redstrate.com/contact).
+The stable version currently is **0.6.1**. You can report issues either on [GitHub](https://github.com/redstrate/Astra/issues) or if you prefer then [contact me via e-mail](https://redstrate.com/contact).
 
-See the [changelog](/software/astra/changelog/0.6.0) for this version.
+See the [changelog](/software/astra/changelog/0.6.1) for this version.
 
 ### Flatpak
 
@@ -46,10 +46,10 @@ If you don't see your preferred distribution listed, it's always possible to bui
 
 {{< rawhtml >}}
 <div class="buttons">
-<a class="blurb-button" href="https://xiv.zone/distrib/astra/0.6.0/astra-source.tar.gz" download>Download source code tarball</a>
+<a class="blurb-button" href="https://xiv.zone/distrib/astra/0.6.1/astra-source.tar.gz" download>Download source code tarball</a>
 </div>
 {{< /rawhtml >}}
 
-SHA256: e5b081f71d867d72ccc766fcf14938be9646d657653fb54c3a7a74d25ff9973d
+SHA256: 904f5efab48f87c64fc59c1748354b41bbe5c991d47499332603071bd67f6596
 
 Size: ~256 KiB
