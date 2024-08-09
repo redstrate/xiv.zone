@@ -1,7 +1,5 @@
 # xiv.zone
 
-[![builds.sr.ht status](https://builds.sr.ht/~redstrate/xiv.zone.svg)](https://builds.sr.ht/~redstrate/xiv.zone?)
-
 This is the source code of the website hosted at [xiv.zone](https://xiv.zone/).
 
 ## Building

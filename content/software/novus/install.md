@@ -10,7 +10,7 @@ Currently only source tarballs are available.
 
 ### Source Code
 
-A complete source tarball is available, which is generated via sourcehut CI on every commit. This includes every vendored dependency as well, which is useful for distribution packaging.
+A complete source tarball is available, which is generated via GitHub CI on every commit. This includes every vendored dependency as well, which is useful for distribution packaging.
 
 {{< rawhtml >}}
 <div class="buttons">
