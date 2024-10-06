@@ -21,8 +21,6 @@ It works around weight painting issues in certain chest pieces by over-scaling t
 
 This mod is still a work-in-progress. Here's some things to note:
 
-* This applies haphazardly across the game currently. Don't expect it to apply to anything but your WoL.
-* Because it's a giant hack, it does not work for small chested characters currently.
 * Some armor is too broken to be "fixed" through Refitter alone, eventually I will release fixed gear models for these.
 * There's no way to tell which version of NARC you have installed yet. If you notice some armor is missing refits, try re-importing.
 
