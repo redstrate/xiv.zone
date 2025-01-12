@@ -1,8 +1,4 @@
 @media screen and (min-width: 900px) {
-    #wrapper {
-        display: flex;
-    }
-
     #center-wrapper {
         width: 900px;
         margin: auto;
@@ -13,8 +9,8 @@
 html {
     font-family: sans-serif;
     --content-color: white;
-    --link-color: rgb(199, 26, 26);
-    --link-color-visited: rgb(128, 0, 0);
+    --link-color: rgb(187, 161, 81);
+    --link-color-visited: rgb(140, 121, 60);
     --content-border: 1px solid;
     --border-color: white;
     overflow-y: scroll;
@@ -22,10 +18,19 @@ html {
     background-color: #495259;
 }
 
+a {
+    color: var(--link-color);
+}
+
+a:visited {
+    color: var(--link-color-visited);
+}
+
 hr {
     height: 0px;
     border: none;
     border-top: 1px solid black;
+    border-color: #9b8762;
 }
 
 body {
@@ -53,13 +58,12 @@ td {
     padding: 4px
 }
 
-main {
+.fancy-container {
     background-color: #313031;
     border: 2px solid #9b8762;
     border-radius: 10px;
     margin: 2px;
     padding: 10px;
-    width: 100%;
     box-shadow: 0px 3px 5px 2px #00000054;
     color: lightgray;
 }
@@ -98,6 +102,8 @@ main > h2 {
 
 footer {
     font-size: .9rem;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 .blurb {
@@ -111,8 +117,12 @@ footer {
     padding: 1em;
     border-radius: 7px;
     margin: 0.5em;
-    text-decoration: none;
     color: lightgray !important;
+    text-decoration: none;
+}
+
+.blurb-button h4 {
+    text-decoration: underline;
 }
 
 .blurb-button:hover {
