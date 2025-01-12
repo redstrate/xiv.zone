@@ -38,7 +38,7 @@ Donations made is purely for **supporting my work** and software hosted here wil
 always be free. These donations do not imply warranty or user support for said
 software.
 
-As of 2024, the Final Fantasy XIV modding community is thriving and we have a
+As of 2025, the Final Fantasy XIV modding community is thriving and we have a
 relative amount of freedom when it comes to modifying and redistributing some of the
 game's data, reverse engineering file formats, packet
 structures and so on. Please do not abuse this
