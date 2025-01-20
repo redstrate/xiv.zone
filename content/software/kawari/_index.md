@@ -13,5 +13,4 @@ See more information on it's [GitHub repository](https://github.com/redstrate/Ka
 
 {{< begin-grid >}}
 {{< blurb title="Get Source Code & Contribute" description="The full source code for Kawari is available on GitHub." url="https://github.com/redstrate/kawari" >}}
-{{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this in my free time." url="https://redstrate.com/fund" >}}
 {{< end-grid >}}

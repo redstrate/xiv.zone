@@ -15,5 +15,4 @@ See more information on it's [GitHub repository](https://github.com/redstrate/No
 
 {{< begin-grid >}}
 {{< blurb title="Get Source Code & Contribute" description="The full source code for Novus is available on GitHub." url="https://github.com/redstrate/Novus" >}}
-{{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this in my free time." url="https://redstrate.com/fund" >}}
 {{< end-grid >}}

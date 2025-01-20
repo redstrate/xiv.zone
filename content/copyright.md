@@ -34,9 +34,6 @@ modify this software for piracy.**
 
 There's also a reason why everything here is free and open source - please **do
 not attempt to profit** off of Square Enix's copyrighted material or trademarks.
-Donations made is purely for **supporting my work** and software hosted here will
-always be free. These donations do not imply warranty or user support for said
-software.
 
 As of 2025, the Final Fantasy XIV modding community is thriving and we have a
 relative amount of freedom when it comes to modifying and redistributing some of the

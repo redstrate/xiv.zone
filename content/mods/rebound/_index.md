@@ -14,5 +14,4 @@ This plugin fixes this bug by locking updates to 60 FPS, and is based on [Kirran
 {{< begin-grid >}}
 {{< blurb title="Install" description="Install from my Dalamud Repository" url="https://github.com/redstrate/dalamudplugins" >}}
 {{< blurb title="Get Source Code & Contribute" description="The full source code for Rebound is available on GitHub." url="https://github.com/redstrate/rebound" >}}
-{{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this in my free time." url="https://redstrate.com/fund" >}}
 {{< end-grid >}}

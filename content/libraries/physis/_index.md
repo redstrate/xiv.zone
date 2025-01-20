@@ -16,6 +16,5 @@ See more information on the [crates.io page](https://crates.io/crates/physis).
 {{< begin-grid >}}
 {{< blurb title="Get Source Code & Contribute" description="The full source code for Physis is available on GitHub." url="https://github.com/redstrate/Physis" >}}
 {{< blurb title="View Documentation" description="API documentation is available on XIV Docs." url="https://docs.xiv.zone/docs/physis/" >}}
-{{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this!" url="https://redstrate.com/fund" >}}
 {{< end-grid >}}
 

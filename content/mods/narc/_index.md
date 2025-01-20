@@ -28,7 +28,6 @@ This mod is still a work-in-progress. Here's some things to note:
 
 {{< begin-grid >}}
 {{< blurb title="Download" description="Download the NARC configuration." url="https://xiv.zone/distrib/narc/config.json" >}}
-{{< blurb title="Donate Money" description="Any monetary contribution helps so I can continue working on this in my free time." url="https://redstrate.com/fund" >}}
 {{< end-grid >}}
 
 ## Frequently Asked Questions
