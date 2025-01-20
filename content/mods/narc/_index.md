@@ -7,7 +7,7 @@ Are you annoyed that some armor somehow changes your female character's chest? T
 
 ![Comparison shot](comparison.jpg)
 
-It works around weight painting issues in certain chest pieces by over-scaling the chest bones. Yes it's a giant hack but it works without modifying the gear models themselves. This is done using my plugin [Refitter]({{< ref "refitter" >}}).
+It works around weight painting issues in certain chest pieces by over-scaling the chest bones. Yes it's a giant hack but it works without modifying the gear models themselves. This is accomplished via my plugin [Refitter]({{< ref "refitter" >}}).
 
 ## Instructions
 
@@ -15,26 +15,26 @@ It works around weight painting issues in certain chest pieces by over-scaling t
 2. Open the Refitter configuration window by typing "/refitter" in chat, or by using the Dalamud Plugin Installer window.
 3. Click the "Download" button below. Once the file is downloaded, copy the _text data_ to your clipboard - not the file itself.
 4. Back in the Refitter config window: Under the "Data" tab, click the "Import to Clipboard" button.
-5. You're all done!
+5. You're all done! 
+
+## Downloads
+
+{{< begin-grid >}}
+{{< blurb title="Download Configuration" description="Download the NARC configuration." url="https://xiv.zone/distrib/narc/config.json" >}}
+{{< blurb title="Download Penumbra Mod" description="Download the Penumbra mod (optional) to fix clipping with some armor." url="https://xiv.zone/distrib/narc/narc-penumbra.zip" >}}
+{{< end-grid >}}
 
 ## Caveats
 
 This mod is still a work-in-progress. Here's some things to note:
 
-* Some armor is too broken to be "fixed" through Refitter alone, eventually I will release fixed gear models for these.
 * There's no way to tell which version of NARC you have installed yet. If you notice some armor is missing refits, try re-importing.
-
-## Get Involved & Support
-
-{{< begin-grid >}}
-{{< blurb title="Download" description="Download the NARC configuration." url="https://xiv.zone/distrib/narc/config.json" >}}
-{{< end-grid >}}
 
 ## Frequently Asked Questions
 
 ### How is this different than VARC?
 
-VARC does the same thing, but through manually fixing the weight painting on the gear model themselves. While this works (assuming I fixed it, and not making it worse) it's very time consuming. As mentioned in the caveats, I may have to release a mini-VARC to fix some really broken models like the 2B outfit.
+[VARC](/mods/varc) does the same thing, but through manually fixing the weight painting on the gear model themselves. While this works (assuming I fixed it, and not making it worse) it's very time consuming.
 
 A secondary and less important reason is to prevent breakages during game updates. Previously, VARC depended on Penumbra to update first. And now with the graphical update ongoing, gear models could be changed from underneath us!
 
@@ -50,7 +50,7 @@ Refitter is the Dalamud plugin I created to modify the chest bones, it technical
 
 ### Can I create my own refits or modify yours?
 
-Yes! Refitter includes a live, in-game system to do this. You also have the option of exporting your configuration portably to share.
+Yes! Refitter includes a live, in-game system to do this. You also have the option of exporting your configuration which can easily be shared online.
 
 ### Why did you make another stupid, useless mod??
 

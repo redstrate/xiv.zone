@@ -9,7 +9,7 @@ aliases:
 
 Have you ever wondered why your female FFXIV character's body shape mysteriously changes depending on whatever you decide to wear? No more!
 
-![main comparison](varc/main-comparison.png)
+![main comparison](main-comparison.png)
 
 The main reason why I created this mod is that some armor in the game don't properly fit certain female characters like my Viera. Compared to other mods that are refitting it to a completely different (and usually ridiculously NSFW) body type, this is meant for people who prefer the vanilla body.
 
@@ -54,7 +54,7 @@ Penumbra has the functionality to selectively disable parts of the mod, either f
 
 _No!_ If the original intention of an armor was to be either loosely or tightly fitted, I have preserved that feature.
 
-![realism](varc/realism-comparison.png)
+![realism](realism-comparison.png)
 
 ### Why did you make such a stupid, useless mod??
 
